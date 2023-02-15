@@ -1,9 +1,7 @@
 import React, { useEffect, useState } from 'react';
-import axios from 'axios';
 import Gallery from '../Gallery';
 import './index.css'
 
-const apiKey = "636e1481b4f3c446d26b8eb6ebfe7127";
 const Home = (props) => {
   const [data, setData] = useState([]);
   const [FilterdImages, setFilteredImages] = useState(data)
